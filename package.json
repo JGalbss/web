@@ -2,7 +2,11 @@
   "name": "@web/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve web",
+    "build": "nx build web --prod",
+    "serve:prod": "nx serve web --prod"
+  },
   "private": true,
   "dependencies": {
     "next": "14.2.16",
