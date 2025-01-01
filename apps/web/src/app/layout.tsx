@@ -1,4 +1,5 @@
 import './global.css';
+import { commieFont } from 'apps/web/public/fonts/communist/commie.font';
 
 export const metadata = {
   title: 'Welcome to web',
@@ -12,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={commieFont.className}>{children}</body>
     </html>
   );
 }
